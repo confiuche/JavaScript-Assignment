@@ -1,0 +1,8 @@
+
+(2.) The system will pick the last variable decleared
+
+(5.) Null: simply means empty or It is the intentional absence of the value.
+     Undefined: means when a vlaue is assign to a vairable
+(6.) NaN is a property of the global object
+     NaN means Not a Number
+(7.) The value for "let thing:" is undefined
