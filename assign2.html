@@ -10,14 +10,14 @@
 
     <script>
 
-        let a = eval(prompt("Enter value for a"))
-        let b = eval(prompt("Enter value for b"))
-        let c = eval(prompt("Enter value for c"))
-        s = a + b + c
+        // let a = eval(prompt("Enter value for a"))
+        // let b = eval(prompt("Enter value for b"))
+        // let c = eval(prompt("Enter value for c"))
+        // s = a + b + c
         
 
-        area = ((s - a) * (s - b) * (s - c))
-        document.write("Area: "+area)
+        // area = ((s - a) * (s - b) * (s - c))
+        // document.write("Area: "+area)
 
         // a=2
         // b=4
@@ -27,6 +27,37 @@
         // area=((s - a) * (s - b) * (s - c))
         // alert(area)
         // alert(s)
+
+        let score = prompt("Enter your Score")
+        if(score >= 70 && score < 100){
+            alert("You scored an A")
+        }else if(score >= 60 && score < 70){
+            alert("You scored B")
+        }else if(score >= 50 && score < 60){
+            alert("You scored C")
+        }else if(score >= 45 && score < 50){
+            alert("You scored D")
+        }else if(score >= 40 && score < 45){
+            alert("You scored E")
+        }else if(score >= 0 && score < 40){
+            alert("You scored an F")
+        }else{
+            alert(" You entered an Invalid Score")
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </script>
     
 </body>
